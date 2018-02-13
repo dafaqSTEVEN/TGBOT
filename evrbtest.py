@@ -1,10 +1,8 @@
 # https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API
 
-import telegram
-from telegram.ext import Updater
+from telegram.ext import CommandHandler, Updater
 
 from credentials import ChingDim
-from telegram.ext import CommandHandler
 
 updater = Updater(token=ChingDim.token)
 dispatcher = updater.dispatcher
