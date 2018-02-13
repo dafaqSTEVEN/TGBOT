@@ -1,3 +1,3 @@
 [submodule "myjson-wrapper"]
-	path = myjson-wrapper
+	path = myjson_wrapper
 	url = https://github.com/Pythonic-Rainbow/myjson-wrapper.git
